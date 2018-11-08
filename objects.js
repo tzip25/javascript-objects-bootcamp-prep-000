@@ -1,5 +1,4 @@
 var playlist = {
-  Greenday: "American Idiot",
   Sublime: "What I Got",
 };
 
