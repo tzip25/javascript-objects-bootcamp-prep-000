@@ -2,7 +2,7 @@ var playlist = {
   Sublime: "What I Got",
 };
 
-function updatePlaylist(targetObject, value) {
+function updatePlaylist(targetObject, updatesObject) {
 return Object.assign({}, obj, { [key]: value });
 }
 
