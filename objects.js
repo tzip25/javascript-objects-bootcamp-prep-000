@@ -3,9 +3,9 @@ var playlist = {
 };
 
 function updatePlaylist(obj, key, value) {
-obj[key] = value;
-return obj;
+return Object.assign({}, obj, { [key]: value });
 }
+
 
 function removeFromPlaylist(obj, key) {
   delete obj.key;
