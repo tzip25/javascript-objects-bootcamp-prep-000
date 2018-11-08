@@ -2,8 +2,9 @@ var playlist = {
   Sublime: "What I Got",
 };
 
-function updatePlaylist(targetObject, updatesObject) {
-return Object.assign({}, targetObject, updatesObject);
+function updatePlaylist(obj, key, value) {
+
+return obj;
 }
 
 
