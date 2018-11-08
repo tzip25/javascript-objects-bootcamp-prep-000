@@ -8,6 +8,6 @@ return Object.assign({}, targetObject, updatesObject);
 
 
 function removeFromPlaylist(obj, key) {
-  delete obj.key;
+  delete obj["key"];
   return obj;
 }
